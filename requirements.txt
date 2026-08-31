@@ -1,6 +1,6 @@
 flask
 pandas
-pandas-ta
+git+https://github.com/twopirllc/pandas-ta.git@development
 numpy
 yfinance
 requests
