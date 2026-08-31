@@ -1,11 +1,11 @@
 from flask import Flask, render_template_string, request, redirect, url_for
 import pandas as pd
-import pandas_ta as ta
 import numpy as np
 import yfinance as yf
 import time
 import requests
 import threading
+import os
 
 app = Flask(__name__)
 
